@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+
+#div1{
+    border-width: 10px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#div2{
+    margin-left: 260px;
+    border-width: 20px;
+    background-color: red;
+}
+
+#div3{
+    margin-left: 500px;
+    border-width: 10px;
+    background-color: yellow;
+}

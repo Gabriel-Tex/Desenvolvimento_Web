@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+</head>
+<body>
+    <h1>Meus contatos:</h1>
+    <ul>
+        <li>
+            Telefone: 938409384
+        </li>
+        <li>
+            Email: gabrielseuamigo@gmail.com
+        </li>
+    </ul>
+
+    <h1>Mande uma mensagem</h1>
+
+    <form action="mailto:gabrieldamasqueiroz@gmail.com" method="POST" enctype="text/plain">
+        <label for="nome">Nome</label> <br>
+        <input type="text" name="nome" id="nome">
+        <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <label for="msg">Mensagem</label> <br>
+        <textarea name="mensagem" id="msg" rows="10" cols="30" style="resize: none;"></textarea>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>

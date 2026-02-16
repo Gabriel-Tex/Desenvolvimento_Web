@@ -1,0 +1,166 @@
+/* ================ GENERAL ================ */
+
+/* ------- outline ------- */
+h1{
+    font-family: 'Sacramento', cursive;
+}
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #8A244B;
+}
+
+a h2:hover{
+    color: #bc5e82;
+}
+
+/* ------- links ------- */
+
+a{
+    text-decoration: none;
+} 
+
+a:link{
+    color: rgb(35, 35, 35);
+} 
+
+a:visited{
+    color: rgb(35, 35, 35);
+} 
+
+a:focus{
+    color: rgb(62, 62, 62);
+} 
+
+a:hover{
+    color: rgb(62, 62, 62);
+} 
+
+/* ================ BODY ================ */
+
+body{
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+}
+
+/* ================ HEADER ================ */
+
+header{
+    margin: 0;
+    position: relative;
+    padding: 0px 0px 30px 0px;
+    background-color: #111F35;
+    color: #D02752;
+}
+
+/* ------- NAVIGATION ------- */
+.nav{
+    background-color: #D02752;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav nav{
+    display: flex;
+    gap: 40px;
+}
+
+/* ------- HEADER TEXT ------- */
+
+#title{
+    text-align: center; 
+}
+
+#title h1{
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+#title p{
+    font-size: 1.5rem;
+} 
+
+/* ------- HEADER IMAGES ------- */
+
+.img-header{
+    margin: 0;
+}
+
+/* tech */
+#tech{
+    display: flex;
+    justify-content: center;
+}
+
+#tech img{
+    width: 20%;    
+    margin-top: 30px;
+}
+
+/* brains */
+
+.brain img{
+    width: 3%;
+}
+
+#brain01 img{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    
+}
+
+#brain02 img{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+}   
+
+/* ================ MAIN ================ */
+
+/* --------- PROFILE ---------*/
+#img-profile img{
+    border-radius: 100%;
+}
+
+/* --------- tag main ---------*/
+
+main{
+    font-size: 1.4rem;
+}
+
+/* --------- images ---------*/
+
+.skill-row img{
+    width: 25%;
+}
+
+/* ================ FOOTER ================ */
+footer{
+    margin: 30px 30px;
+    background-color: #8A244B;
+    border-style: outset;
+    border-color:#D02752;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+div.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2em;
+}
+
