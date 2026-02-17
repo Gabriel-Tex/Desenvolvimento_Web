@@ -36,17 +36,6 @@ a:hover{
     color: rgb(62, 62, 62);
 } 
 
-/* ------- hr ------- */
-
-hr{
-    border-style: dotted none none none;
-    color: rgba(0, 0, 0, 0.701);
-    border-width: 10px;
-    width: 8%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 /* ================ BODY ================ */
 
 body{
@@ -59,7 +48,6 @@ body{
 
 header{
     margin: 0;
-    margin-bottom: 40px;
     position: relative;
     padding: 0px 0px 30px 0px;
     background-color: #111F35;
@@ -110,7 +98,6 @@ header{
 
 #tech img{
     width: 20%;    
-    max-width: 300px;
     margin-top: 30px;
 }
 
@@ -133,8 +120,6 @@ header{
     left: 12%;
 }   
 
-
-
 /* ================ MAIN ================ */
 
 /* --------- PROFILE ---------*/
@@ -156,7 +141,11 @@ main{
     margin: 100px auto;
 }
 
-figure.skill-row h3, figure.skill-row p{
+#skill-paragraph01{
+    text-align: left;
+}
+
+#skill-paragraph02{
     text-align: left;
 }
 
