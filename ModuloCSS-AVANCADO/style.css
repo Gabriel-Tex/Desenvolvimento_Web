@@ -1,0 +1,80 @@
+/* ============ GENERAL ============ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 186, 255);
+}
+
+/* ============ CALCULATOR ============ */
+
+#calculadora{
+    background-color: rgb(28, 28, 28);
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding: 15px;
+}
+
+/* ------ input ------- */
+
+input{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    margin: 10px;
+    background-color: rgb(28, 28, 28);
+    font-size: 24px;
+    border-style: none;
+    color: white;
+    outline: none;
+    text-align: right;
+
+}
+
+/* ------ buttons ------- */
+
+button{
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.black-button{
+    background-color: rgb(56, 56, 56);
+}
+
+.blue-button{
+    background-color: rgb(0, 104, 195);
+}
+
+.grey-button{
+    background-color: rgb(103, 103, 103);
+}
+
+#equal{
+    grid-row: 6/8;
+    grid-column: 4/5;
+    background-color: rgba(39, 151, 250, 0.855);
+}
+
+#zero{
+    grid-column: 1/3;
+}
