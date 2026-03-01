@@ -1,0 +1,73 @@
+/* ============= RESET ============= */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ============= GENERAL ============= */
+
+body{
+    background-color: rgb(114, 69, 161);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ============= container ============= */
+
+.container{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements-container, input{
+    width: 100%;
+}
+
+/* ============= container -> form ============= */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.elements-form{
+    margin-bottom: 10px;
+}
+
+#btn-send{
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(114, 69, 161);
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#btn-send:hover{
+    background-color: rgb(70, 53, 115);
+}
+
+#btn-send:focus{
+    background-color: rgb(70, 53, 115);
+}
+    

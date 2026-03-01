@@ -1,0 +1,118 @@
+/* ============= RESET ============= */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ============= GENERAL ============= */
+
+body{
+    background-color: rgb(114, 69, 161);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ============= container ============= */
+
+.container{
+    width: 500px;
+    height: 620px;
+    padding: 10px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.elements-container, input{
+    width: 95%;
+}
+
+h1.elements-container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* ============= container -> form ============= */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.elements-form{
+    margin-bottom: 10px;
+}
+
+#btn-send{
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(114, 69, 161);
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#btn-send:hover{
+    background-color: rgb(50, 37, 83);
+}
+
+#btn-send:focus{
+    background-color: rgb(50, 37, 83);
+}
+
+#btn-send:active{
+    background-color: rgba(113, 69, 161, 0.73);
+}
+    
+/* ============= container -> tables ============= */
+
+#tables-container{
+    display: flex;
+    gap: 125px;
+    margin: 10px auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 15px;
+}
+
+table{
+    text-align: left;
+}
+
+/* ============= container -> result ============= */
+
+.valid-result{
+    background-color: rgba(0, 206, 72, 0.639);
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invalid-result{
+    background-color: rgba(224, 0, 0, 0.596);
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

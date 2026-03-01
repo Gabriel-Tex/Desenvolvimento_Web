@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- ========== ICON ========== -->
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <!-- ========== FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <title> IMC </title>
+</head>
+
+<body>
+    <!-- ========== START SECTION CONTAINER ========== -->
+    <section class="container">
+
+        <h1 class="elements-container">
+            Tabela IMC
+        </h1>
+
+        <!-- START TABLE CONTAINER -->
+        <div id="tables-container">
+            <!-- start table 1-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            IMC
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            Menos do que 18,5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Entre 18,5 e 24,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Entre 25 e 29,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Entre 30 e 34,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Entre 35 e 39,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mais do que 40
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <!-- start table 2-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Resultado
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            Abaixo do peso
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Peso normal
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sobrepeso
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Obesidade grau 1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Obesidade grau 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Obesidade grau 3
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <!-- START FORM -->
+        <form action="" class="elements-container">
+            <h2 class="elements-form">Calcule seu IMC</h2>
+
+            <!-- input 1 -->
+            <div class="input-container">
+                <label for="peso">Peso</label>
+                <input type="number" id="peso" class="elements-form" step="any" min="0"
+                placeholder="kg">
+            </div>
+
+            <!-- input 2 -->
+            <div class="input-container">
+                <label for="altura">Altura</label>
+                <input type="number" id="altura" class="elements-form" step="any" min="0"
+                placeholder="m">
+            </div>
+
+            <!-- button -->
+            <button id="btn-send" class="elements-form">Calcular</button>
+        </form>
+
+        <!-- RESULT CONTAINER -->
+        <div id="result-container"></div>
+    </section>
+
+    <!-- JS -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
