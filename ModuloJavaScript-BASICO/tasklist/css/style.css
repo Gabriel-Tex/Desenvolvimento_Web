@@ -1,0 +1,100 @@
+/* ============= RESET ============= */
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* ============= GENERAL ============= */
+
+body {
+    background-color: rgb(114, 69, 161);
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ============= container ============= */
+
+.container {
+    width: 500px;
+    height: 600px;
+    padding: 15px 40px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.elements-container,
+input {
+    width: 95%;
+}
+
+/* ============= container -> input-container ============= */
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.input-elements {
+    margin-bottom: 10px;
+}
+
+button {
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(114, 69, 161);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btn-add {
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.btn-delete {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    background-color: rgb(70, 53, 115);
+}
+
+button:focus {
+    background-color: rgb(70, 53, 115);
+}
+
+.tasks{
+    line-height: 25px;
+    overflow-y: auto;
+    padding-left: 15px;
+}
+
+.tasks li {
+    word-break: break-word;
+}
