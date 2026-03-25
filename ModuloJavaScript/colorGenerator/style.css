@@ -1,0 +1,80 @@
+
+/* ============ RESET ============ */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* ============ GENERAL ============ */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+    font-size: 1.25rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 8px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+main{
+    flex: 1;
+    display: flex;  
+}
+
+button{
+    padding: 12px;
+    font-size: 1.1rem;    
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.7);
+}
+
+/* ============ NAV ============ */
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: rgb(28, 192, 135);
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+    outline-offset: 8px;
+}
+
+/* ============ GENERATION-SECTION ============ */
+
+#generator-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generator-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.generator-container h2{
+    font-size: 2.5rem;
+}
