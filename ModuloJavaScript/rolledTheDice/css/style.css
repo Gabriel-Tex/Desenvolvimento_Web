@@ -1,0 +1,45 @@
+/* ============= VARIABLES ============= */
+:root{
+    --background: linear-gradient(to top, #6a2affc2, #260080d5); 
+}
+
+/* ============= RESET ============= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============= GENERAL ============= */
+
+body {
+    min-height: 100vh;
+    background-image: var(--background);
+    background-repeat: no-repeat;
+    font-family: "Indie Flower", cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 6rem;
+}
+
+h2 {
+    margin: 8px;
+}
+
+#dice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.dice img{
+    width: 140px;
+}
