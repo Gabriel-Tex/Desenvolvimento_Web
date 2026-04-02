@@ -65,6 +65,12 @@ label{
     align-self: flex-start;
 }
 
+.error-text{
+    align-self: flex-start;
+    font-size: 12px;
+    color: rgb(228, 30, 0);
+}
+
 #btn-send{
     width: 120px;
     height: 40px;

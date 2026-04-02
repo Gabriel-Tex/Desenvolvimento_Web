@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- ========== FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <title> Form validation </title>
+</head>
+
+<body>
+    <section class="container">
+
+        <h1>
+            Cadastre-se
+        </h1>
+
+        <ul>
+            <li>Nenhum campo deve estar vazio;</li>
+            <li>Usuário deve conter apenas letras ou números;</li>
+            <li>Usuário deve conter de 5 a 15 caracteres;</li>
+            <li>Senha deve conter de 8 a 32 caracteres.</li>
+        </ul>
+
+        <form action="/" method="POST" id="form-container">
+            <label for="name"> Nome </label>
+            <input type="text" id="name" class="name elements-form validate">
+
+            <label for="lastname"> Sobrenome </label>
+            <input type="text" id="lastname" class="lastname elements-form validate">
+
+            <label for="CPF"> CPF </label>
+            <input type="text" id="CPF" class="CPF elements-form validate">
+
+            <label for="password"> Senha </label>
+            <input type="password" id="password" class="password elements-form validate">
+
+            <label for="repeat-password"> Repetir senha </label>
+            <input type="password" id="repeat-password" class="repeat-password elements-form validate">
+
+            <button type="submit" id="btn-send" class="elements-form">Enviar</button>
+        </form>
+
+    </section>
+
+    <script src="../js/CPFValidation.js"></script>
+    <script src="../js/formValidation.js"></script>
+</body>
+
+</html>
